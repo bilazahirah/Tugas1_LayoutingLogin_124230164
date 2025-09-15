@@ -110,6 +110,19 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 2),
+              // Forget Password
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "Forgot Password?",
+                  style: GoogleFonts.inter(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                    color: Colors.grey,
+                  ),
+                ),
+              ),
             ],
           ),
         ),
